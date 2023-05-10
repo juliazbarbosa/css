@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dom.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div>
+        <h1>Ola</h1>
+        <p>meu nome é Júlia</p>
+    </div>
+
+    <div>
+
+        <div>
+            <p>Boa Tarde</p>
+            <span>xxx</span>
+        </div>
+
+        <div>
+            <p>Boa Noite</p>
+            <span>tchau</span>
+        </div>
+
+        <div>
+            <h2>Olá</h2>
+            <p>durma bem</p>
+            <span>tchau</span>
+        </div>
+
+    </div>
+
+    <div>
+        <footer>
+            <p>beijos da Jú</p>
+        </footer>
+    </div>
+</body>
+</html>
+
+
+#css
+
+footer>p{background-color: brown;
+    font-weight: 800;
+
+}
+div:nth-child(2) {
+    background-color: aqua;
+}
+h2+p {background-color: blueviolet;}
+
+h1:first-of-type {background-color: rgb(161, 11, 154);}
+
+h1+p{background-color: rgb(179, 255, 0);}
