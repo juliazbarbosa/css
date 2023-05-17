@@ -1,0 +1,35 @@
+#mudar coisas de posiçao na tela do CSS uando o relative
+
+.div1 {
+    height: 100px;
+    width: 100px;
+    border: 3px solid salmon;
+    margin: 10px;
+    position: relative ;
+    right: 10px;
+}
+
+.div2 {
+    height: 100px;
+    width: 100px;
+    border: 1px dotted rgb(9, 197, 150);
+    margin: 10px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+.div3 {
+    height: 100px;
+    width: 100px;
+    border: 3px solid rgb(238, 156, 238);
+    margin: 10px;
+    position: relative;
+    bottom: -50px;
+}
+
+span{
+    position: relative;
+    left: 30px;
+    top: 80px;
+    background-color: rgb(197, 46, 46);
