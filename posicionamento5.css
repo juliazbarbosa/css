@@ -22,14 +22,3 @@ div.tres {
   background: #fcf;
 }
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
-<body>
-  <div class="um">DIV UM </div>
-  <div class="dois">DIV DOIS </div>
-  <div class="tres">DIV TRES </div>
-</body>
-</html>
