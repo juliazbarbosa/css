@@ -1,0 +1,12 @@
+footer>p{background-color: brown;
+    font-weight: 800;
+
+}
+div:nth-child(2) {
+    background-color: aqua;
+}
+h2+p {background-color: blueviolet;}
+
+h1:first-of-type {background-color: rgb(161, 11, 154);}
+
+h1+p{background-color: rgb(179, 255, 0);}
