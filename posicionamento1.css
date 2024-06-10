@@ -1,0 +1,17 @@
+div {
+    width: 360px;
+    padding: 10px 20px;
+    border: 2px solid black;
+}
+p {
+    border: 2px dotted black;
+    padding: 10px 20px;
+}
+
+.tres {
+
+    background-color: aquamarine;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
